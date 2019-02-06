@@ -4,7 +4,7 @@ class Cohort{
     students: string;
     mentors: string;
 constructor(
-    
+     
 )
 }
 
