@@ -3,7 +3,7 @@ import {Numbers} from './sum';
 
 test('add 2 numbers', t => {
     const operations = new Numbers();
-    let actual = operations.sum(3, 5);
+    let actual = operations.sum([]);
     let expected = 8;
     t.equal(8, 8);
     t.end();
@@ -11,7 +11,7 @@ test('add 2 numbers', t => {
 
 test('empty list', t => {
     const operations1 = new Numbers();
-    let actual = operations1.sum();
+    let actual = operations1.sum([]);
     let expected = 8;
     t.equal();
     t.end();
